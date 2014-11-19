@@ -52,6 +52,7 @@ Included service implementations:
     - SoundCloud
     - Vkontakte
     - Yammer
+    - Stripe
 - more to come!
 
 To learn more about Lusitanian/PHPoAuthLib go [here](https://github.com/Lusitanian/PHPoAuthLib) 
