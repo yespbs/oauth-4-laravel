@@ -62,7 +62,7 @@ Add oauth-4-laravel to your composer.json file:
 
 ```
 "require": {
-  "artdarek/oauth-4-laravel": "dev-master"
+  "yespbs/oauth-4-laravel": "dev-master"
 }
 ```
 
@@ -109,7 +109,7 @@ your ``app\config\`` directory (option 2).
 Create configuration file for package using artisan command
 
 ```
-$ php artisan config:publish artdarek/oauth-4-laravel
+$ php artisan config:publish yespbs/oauth-4-laravel
 ```
 
 #### Option 2
@@ -152,7 +152,7 @@ return array(
 
 ### Credentials
 
-Add your credentials to ``app/config/packages/artdarek/oauth-4-laravel/config.php`` or ``app/config/oauth-4-laravel.php`` (depending on which option of configuration you choose)
+Add your credentials to ``app/config/packages/yespbs/oauth-4-laravel/config.php`` or ``app/config/oauth-4-laravel.php`` (depending on which option of configuration you choose)
 
 
 The `Storage` attribute is optional and defaults to `Session`. 
@@ -179,7 +179,7 @@ $fb = OAuth::consumer('Facebook','http://url.to.redirect.to');
 ###Facebook:
 
 Configuration:
-Add your Facebook credentials to ``app/config/packages/artdarek/oauth-4-laravel/config.php``
+Add your Facebook credentials to ``app/config/packages/yespbs/oauth-4-laravel/config.php``
 
 ```php
 'Facebook' => array(
@@ -238,7 +238,7 @@ public function loginWithFacebook() {
 ###Google:
 
 Configuration:
-Add your Google credentials to ``app/config/packages/artdarek/oauth-4-laravel/config.php``
+Add your Google credentials to ``app/config/packages/yespbs/oauth-4-laravel/config.php``
 
 ```php
 'Google' => array(
@@ -292,7 +292,7 @@ public function loginWithGoogle() {
 ###Twitter:
 
 Configuration:
-Add your Twitter credentials to ``app/config/packages/artdarek/oauth-4-laravel/config.php``
+Add your Twitter credentials to ``app/config/packages/yespbs/oauth-4-laravel/config.php``
 
 ```php
 'Twitter' => array(
@@ -351,7 +351,7 @@ public function loginWithTwitter() {
 ###Linkedin:
 
 Configuration:
-Add your Linkedin credentials to ``app/config/packages/artdarek/oauth-4-laravel/config.php``
+Add your Linkedin credentials to ``app/config/packages/yespbs/oauth-4-laravel/config.php``
 
 ```php
 'Linkedin' => array(
